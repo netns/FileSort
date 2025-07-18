@@ -10,10 +10,10 @@ This script scans a folder and moves each file into a subfolder like `Documents`
 
 ```bash
 # Run in the current folder
-python sorter.py
+python filesort.py
 
 # Run in a specific folder
-python sorter.py /path/to/your/folder
+python filesort.py /path/to/your/folder
 ```
 
 ##File categories
