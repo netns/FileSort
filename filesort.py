@@ -50,7 +50,7 @@ def sort_files(dir: Path) -> None:
 
 def cli():
     if len(sys.argv) < 2:
-       path = Path.cwd()
+        path = Path.cwd()
 
     if sys.argv[1] in ["-h", "--help"]:
         print(USAGE)
