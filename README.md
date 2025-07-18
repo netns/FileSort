@@ -16,7 +16,7 @@ python filesort.py
 python filesort.py /path/to/your/folder
 ```
 
-##File categories
+## File categories
 
 | Category        | Extensions                                              |
 | --------------- | ------------------------------------------------------- |
