@@ -40,8 +40,8 @@ def sort_files(dir: Path) -> None:
             new_dir = dir / category
             new_dir.mkdir(exist_ok=True)
             try:
-                file.rename(str(new_dir / item.name))
-                print(f"Moved: {file.name} --> {category}")
+                item.rename(str(new_dir / item.name))
+                print(f"Moved: {item.name} --> {category}")
             except PermissionError:
                 print(f"Permission denied: could not move the file {file}")
             except Exception as e:
